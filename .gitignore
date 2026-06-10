@@ -1,0 +1,49 @@
+# ====================================================================
+# Cadence Temporary, Log, and Lock Files
+# ====================================================================
+*.cdslck
+*.log
+*.jou
+*~
+藝術*
+cdslck.*
+hspice.*
+spectre.*
+
+# ====================================================================
+# Cadence Virtuoso Simulation & Compilation Outputs
+# ====================================================================
+simulation/
+netlist/
+PEX/
+psf/
+lvs/
+drc/
+extGuiLog/
+
+# ====================================================================
+# Confidential Foundry Data (PDKs and Standard Cell Libraries)
+# ====================================================================
+# Replace these names with the exact folder names of your IISc lab kit
+dvlsi2025_std_cells/
+pdk/
+foundry_files/
+
+# ====================================================================
+# OS junk
+# ====================================================================
+.DS_Store
+Thumbs.db
+
+# ====================================================================
+# Extra Cadence ADE States and Internal Tags
+# ====================================================================
+spectre_state*/
+adexl*/
+*.tag
+*.cfg
+*.cfg%
+CCLFile
+
+# Catch all lock files, even if they have server suffixes
+*.cdslck*
